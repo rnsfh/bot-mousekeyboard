@@ -7,7 +7,7 @@ def get_model():
     Returns a compiled convolutional neural network model. Assume that the
     `input_shape` of the first layer is `(IMG_WIDTH, IMG_HEIGHT, 3)`.
     The output layer should have `NUM_CATEGORIES` units, one for each category.
-    """qwdawef
+    """
     model = keras.Sequential(
         [
             ## convolutional layer
